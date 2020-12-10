@@ -19,4 +19,9 @@ class PatientsController{
     {
         echo('Deleting record for patient '. $patientId);
     }
+
+    public function create($postBody)
+    {
+        echo('Creating patient '. $postBody);
+    }
 }

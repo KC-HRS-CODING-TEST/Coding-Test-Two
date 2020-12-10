@@ -17,7 +17,7 @@ class PatientsMetricsController {
 
     public function create($patientId) 
     {
-        echo('Creating metrics for patient'. $patientId);
+        echo('Creating metrics for patient '. $patientId);
     }
 
     public function update($patientId, $metricId)
