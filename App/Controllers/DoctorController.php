@@ -4,9 +4,9 @@ namespace App\Controllers;
 
 use App\Core\App;
 
-class UsersController{
+class DoctorController{
 
     public function index(){
-        echo('showing all users');
+        echo('showing all doctors');
     }
  }

@@ -5,13 +5,6 @@ namespace App\Core;
 // use App\Core\RouterInterface;
 
 class Router implements RouterInterface{
-    public $routes = [
-        'GET' => [],
-        'POST' => [],
-        'PATCH' => [],
-        'DELETE' => [],
-    ];
-
     protected static $controller = [];
     protected static $request;
     protected static $method;
